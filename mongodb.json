@@ -1,0 +1,44 @@
+[
+  {
+    "img": "https://i.ibb.co/0ChBppm/todd-cravens-lw-ACYK8-Scm-A-unsplash.jpg",
+    "service_name": "Sea photography",
+    "service_description": "The ocean is restless and never quiet; there are always waves and splashes and a lot of action. So the safety requirements are the most serious for ocean photography.It's a sea photoshoot services. It's best for those who love sea and need to have some great sea photo.",
+    "price": "250$",
+    "ratings": "4.6"
+  },
+  {
+    "img": "https://i.ibb.co/nkFPP0T/colin-lloyd-LOh-9-Pgd-PZw-unsplash.jpg",
+    "service_name": "Sports photography",
+    "service_description": "Capturing the action of a thrilling sports event, whether it is football, rugby league, soccer, tennis and everything in between, is a wonderful feeling for all involved. But just how can we get those shots we see in the magazines and newspapers? In sports photography, you want to ensure that the shutter speed on your camera is fast enough to capture the quick moving bodies of the athletes.",
+    "price": "400$",
+    "ratings": "4.8"
+  },
+  {
+    "img": "https://i.ibb.co/RzLNYqP/timon-studler-4qm-Xh-KJh-So4-unsplash.jpg",
+    "service_name": "Wildlife photography",
+    "service_description": "Capturing a beautiful photograph doesn't necessarily mean journeying far from home. Alex, winner of the 2015 Invertebrates category, believes that capturing a shot to be proud of is within reach. The wildlife might be harder to find in a residential area than in secluded jungles or sweeping deserts, but the rewards are worth the effort.",
+    "price": "370$",
+    "ratings": "4.7"
+  },
+  {
+    "img": "https://i.ibb.co/NVWgq9J/carly-rae-hobbins-z-NHOIzj-Jiy-A-unsplash.jpg",
+    "service_name": "Couple photography",
+    "service_description": "Couples photography gives photographers a unique opportunity to capture memorable moments for their clients and create compelling images for their portfolio. These sessions often happen on-location in beautiful settings that lend themselves well to incredible portraits. Mastering the art of photographing couples.",
+    "price": "780$",
+    "ratings": "4.9"
+  },
+  {
+    "img": "https://i.ibb.co/L0T28nt/robert-lukeman-RBcxo9-AU-U-unsplash.jpg",
+    "service_name": "Nature photography",
+    "service_description": "Couples photography gives photographers a unique opportunity to capture memorable moments for their clients and create compelling images for their portfolio. These sessions often happen on-location in beautiful settings that lend themselves well to incredible portraits. Mastering the art of photographing couples.",
+    "price": "1200$",
+    "ratings": "4.9"
+  },
+  {
+    "img": "https://i.ibb.co/55y1xjP/antonino-visalli-RNi-BLy7a-Hck-unsplash.jpg",
+    "service_name": "Personal photoshoot",
+    "service_description": "It's a casual photoshoot services. It's best for those who are hanging on a vacation and need to have some great memorial photo. Also this service is great for your budget also. Buy this now to have a discount in near future.",
+    "price": "120$",
+    "ratings": "4.9"
+  }
+]

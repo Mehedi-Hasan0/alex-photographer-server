@@ -21,18 +21,23 @@ async function run() {
         app.get('/limitedServices', async (req, res) => {
             const query = {};
             const sorting = { _id: -1 };
-            const cursor = serviceCollection.find(query, sorting).limit(3);
+            const cursor = serviceCollection.find(query, sorting).limit(3).sort({ date: -1 });
             const limitedServices = await cursor.toArray();
             res.send(limitedServices);
         });
 
         app.get('/allServices', async (req, res) => {
             const query = {};
-            const sorting = { _id: -1 };
-            const cursor = serviceCollection.find(query, sorting);
+            const cursor = serviceCollection.find(query).sort({ date: -1 });
             const allServices = await cursor.toArray();
             res.send(allServices)
         });
+
+        app.post('/allServices', async (req, res) => {
+            const service = req.body;
+            const result = await serviceCollection.insertOne(service);
+            res.send(result);
+        })
 
         app.get('/serviceDetails/:id', async (req, res) => {
             const id = req.params.id;

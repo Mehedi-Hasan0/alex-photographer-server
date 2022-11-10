@@ -39,13 +39,21 @@ async function run() {
             const query = { _id: ObjectId(id) };
             const service = await serviceCollection.findOne(query);
             res.send(service);
-        })
+        });
 
+        // reviews api
         app.post('/reviews', async (req, res) => {
             const reviews = req.body;
             const result = await reviewsCollection.insertOne(reviews);
             res.send(result);
 
+        });
+
+        app.get('/reviews', async (req, res) => {
+            const query = {};
+            const cursor = reviewsCollection.find(query).sort({ date: -1 });
+            const reviews = await cursor.toArray();
+            res.send(reviews);
         })
     }
     finally {

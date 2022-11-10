@@ -54,6 +54,20 @@ async function run() {
             const cursor = reviewsCollection.find(query).sort({ date: -1 });
             const reviews = await cursor.toArray();
             res.send(reviews);
+        });
+
+        // my reviews api
+        app.get('/myReviews', async (req, res) => {
+            let query = {};
+            if (req.query.email) {
+                query = {
+                    email: req.query.email
+                }
+            }
+
+            const cursor = reviewsCollection.find(query);
+            const reviews = await cursor.toArray();
+            res.send(reviews);
         })
     }
     finally {
